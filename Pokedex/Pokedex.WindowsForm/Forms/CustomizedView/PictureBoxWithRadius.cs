@@ -12,17 +12,16 @@ namespace Pokedex.WindowsForm.Forms.CustomizedView
 {
     public class PictureBoxWithRadius : PictureBox
     {
+        /// <summary>
+        /// Picture box Possible radius and border
+        /// </summary>
         private int borderSize = 0;
         private int borderRadius = 0;
-        private bool topBorder = true;
-        private bool endBorder = true;
+        private bool[] borderCreated = { true, true, true, true }; 
         private Color borderColor = Color.Aqua;
 
         [Category("Border")]
-        public bool TopBorder { get => topBorder; set { topBorder = value; this.Invalidate(); } }
-        [Category("Border")]
-        public bool EndBorder { get => endBorder; set { endBorder = value; this.Invalidate(); } }
-
+        public bool[] BorderCreated { get => borderCreated; set { borderCreated = value; this.Invalidate(); } }
 
 
         [Category("Border")]
@@ -46,13 +45,11 @@ namespace Pokedex.WindowsForm.Forms.CustomizedView
             GraphicsPath path = new GraphicsPath();
 
             path.StartFigure();
-   
-                path.AddArc(rect.X, rect.Y, radius, radius, 180, 90);
-                path.AddArc(rect.Width - radius, rect.Y, radius, radius, 270, 90);
-                path.AddArc(rect.Width - radius, rect.Height - radius, radius, radius, 0, 90);
-                path.AddArc(rect.X, rect.Height - radius, 0.1F, radius, 90, 90);
-           
-
+                //create draw
+                path.AddArc(rect.X, rect.Y, (BorderCreated[0])?radius: 0.01F, radius, 180, 90);
+                path.AddArc(rect.Width - radius, rect.Y, radius, (BorderCreated[1]) ? radius : 0.01F, 270, 90);
+                path.AddArc(rect.Width - ((BorderCreated[2]) ? radius : 0), rect.Height - ((BorderCreated[2]) ? radius : 0), (BorderCreated[2]) ? radius : 0.01F, (BorderCreated[2]) ? radius : 0.01F, 0, 90); 
+                path.AddArc(rect.X, rect.Height - radius, (BorderCreated[3]) ? radius : 0.01F, radius, 90, 90);   
             path.CloseFigure();
             return path;
         }
@@ -65,7 +62,7 @@ namespace Pokedex.WindowsForm.Forms.CustomizedView
             RectangleF reactSurface = new RectangleF(0, 0, this.Width, this.Height);
             RectangleF reactBorder = new RectangleF(1, 1, this.Width - 0.8f, this.Height - 1);
 
-            if (borderRadius > 2)
+            if (borderRadius > 1)
             {
                 using (GraphicsPath pathSurface = GetFigurePath(reactSurface, borderRadius))
                 using (GraphicsPath pathBorder = GetFigurePath(reactBorder, borderRadius ))

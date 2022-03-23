@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PokeApi", "PokeApi", "{9091
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokedex.WindowsForm", "Pokedex.WindowsForm\Pokedex.WindowsForm.csproj", "{7026B114-57D1-4545-87CB-D3D271A38B54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokedex.Web", "Pokedex.Web\Pokedex.Web.csproj", "{D207D342-1682-4874-AE61-496F92566C2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pokedex.Web", "Pokedex.Web\Pokedex.Web.csproj", "{D207D342-1682-4874-AE61-496F92566C2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
