@@ -14,6 +14,8 @@ using System.Windows.Forms;
 using System.Text.Encodings.Web;
 using System.Net;
 using Pokedex.WindowsForm.Forms.Controls;
+using System.IO;
+using System.Xml.Linq;
 
 namespace Pokedex.WindowsForm.Forms
 {
@@ -85,7 +87,12 @@ namespace Pokedex.WindowsForm.Forms
             {
                 listPokemon.ForEach(p =>
                 {
-                    flpListPokemon.Controls.Add(new CardPokemon(p,true));
+                    CardPokemon card = new CardPokemon(p, true);
+                    card.MouseHover += new System.EventHandler(this.card_MouseHover);
+                    card.MouseLeave += new System.EventHandler(this.card_MouseLeave);
+
+
+                    flpListPokemon.Controls.Add(card);
                 });
             }
             catch (Exception ex)
@@ -113,7 +120,7 @@ namespace Pokedex.WindowsForm.Forms
         private void createLoading()
         {
             PictureBox pictureBox = new PictureBox();
-            pictureBox.Image = global::Pokedex.WindowsForm.Properties.Resources.loading;
+            pictureBox.Image = Properties.Resources.loading ;
             pictureBox.Location = new System.Drawing.Point(3, 3);
             pictureBox.Name = "pictureBox1";
             pictureBox.Size = new System.Drawing.Size(664, 384);
@@ -123,5 +130,16 @@ namespace Pokedex.WindowsForm.Forms
             flpListPokemon.Controls.Add(pictureBox);
         }
 
+
+        private void card_MouseHover(object sender, EventArgs e)
+        {
+            ((CardPokemon)sender).BackColor = Color.Red;
+        }
+
+        private void card_MouseLeave(object sender, EventArgs e)
+        {
+            ((CardPokemon)sender).BackColor = Color.FromArgb(224, 224,224);
+
+        }
     }
 }

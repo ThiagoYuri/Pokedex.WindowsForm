@@ -17,8 +17,8 @@ namespace Pokedex.WindowsForm.Forms
         {
             InitializeComponent();
             cardPokemon1.ChangeInfo(pokemon);
-            lblHeight.Text = $"Height: {pokemon.Height}";
-            lblWeight.Text = $"Weight: {pokemon.Weight}";
+            lblHeight.Text = $"{lblHeight.Text} {pokemon.Height}";
+            lblWeight.Text = $"{lblWeight.Text} {pokemon.Weight}";
 
             flpMoves.Controls.Clear();
             pokemon.Moves.ForEach(x => {
