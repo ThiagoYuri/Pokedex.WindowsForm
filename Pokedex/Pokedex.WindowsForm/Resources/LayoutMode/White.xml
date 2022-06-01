@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<styles Name="White">
+	<Colors>
+		<Background Name="Background">
+			<R>190</R>
+			<G>190</G>
+			<B>190</B>
+		</Background>
+		<BackgroundSecondary Name="BackgroundSecondary">
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</BackgroundSecondary>
+
+		<FontPrimary Name="FontPrimary">
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+		</FontPrimary>
+		<FontSecondary Name="FontSecondary">
+			<R>50</R>
+			<G>50</G>
+			<B>50</B>
+		</FontSecondary>
+
+		<ButtonDefault Name="ButtonDefault">
+			<R>46</R>
+			<G>139</G>
+			<B>87</B>
+		</ButtonDefault>
+	</Colors>
+</styles>

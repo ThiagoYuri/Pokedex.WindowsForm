@@ -61,6 +61,21 @@ namespace Pokedex.WindowsForm.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+        ///&lt;styles Name=&quot;Config&quot;&gt;
+        ///	&lt;LayoutMode&gt;White&lt;/LayoutMode&gt;
+        ///&lt;/styles&gt;
+        ///
+        ///
+        ///.
+        /// </summary>
+        internal static string ConfigPokedex {
+            get {
+                return ResourceManager.GetString("ConfigPokedex", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap loading {
@@ -77,6 +92,35 @@ namespace Pokedex.WindowsForm.Properties {
             get {
                 object obj = ResourceManager.GetObject("PokemonDefaultImg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+        ///&lt;styles Name=&quot;White&quot;&gt;
+        ///	
+        ///	&lt;Colors&gt;
+        ///		&lt;Background Name=&quot;Background&quot;&gt;
+        ///			&lt;R&gt;232&lt;/R&gt;
+        ///			&lt;G&gt;0&lt;/G&gt;
+        ///			&lt;B&gt;40&lt;/B&gt;
+        ///		&lt;/Background&gt;
+        ///
+        ///	&lt;/Colors&gt;
+        ///	
+        ///	
+        ///	&lt;Fonts&gt;
+        ///		
+        ///	&lt;/Fonts&gt;	
+        ///	
+        ///&lt;/styles&gt;
+        ///
+        ///
+        ///.
+        /// </summary>
+        internal static string White {
+            get {
+                return ResourceManager.GetString("White", resourceCulture);
             }
         }
     }
