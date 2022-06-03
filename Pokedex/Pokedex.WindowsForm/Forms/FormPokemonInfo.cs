@@ -1,12 +1,5 @@
 ﻿using PokeApiNet;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Pokedex.WindowsForm.Forms
@@ -31,6 +24,12 @@ namespace Pokedex.WindowsForm.Forms
                 newMove.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
                 flpMoves.Controls.Add(newMove); 
             });
+
+        }
+
+        private void FormPokemonInfo_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

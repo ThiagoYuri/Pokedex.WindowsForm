@@ -117,201 +117,198 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;lblHeight.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>348, 23</value>
+  <data name="cardPokemon1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, -2</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="cardPokemon1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>803, 250</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cardPokemon1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;cardPokemon1.Name" xml:space="preserve">
     <value>cardPokemon1</value>
   </data>
+  <data name="&gt;&gt;cardPokemon1.Type" xml:space="preserve">
+    <value>Pokedex.WindowsForm.Forms.Controls.CardPokemon, Pokedex.WindowsForm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
   <data name="&gt;&gt;cardPokemon1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="&gt;&gt;cardPokemon1.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
+  <data name="lblWeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 62</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="flpMoves.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 19</value>
-  </data>
-  <data name="&gt;&gt;lblWeight.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lblWeight.Name" xml:space="preserve">
-    <value>lblWeight</value>
-  </data>
-  <data name="cardPokemon1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;flpMoves.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;lblWeight.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="lblHeight.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>Moves</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Pokemon Info</value>
-  </data>
-  <data name="lblHeight.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="lblWeight.Size" type="System.Drawing.Size, System.Drawing">
     <value>166, 23</value>
   </data>
   <data name="lblWeight.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FormPokemonInfo</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>Pokedex.WindowsForm.Forms.FormBase, Pokedex.WindowsForm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>804, 450</value>
-  </data>
-  <data name="&gt;&gt;lblHeight.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;lblWeight.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="lblHeight.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="lblHeight.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 29</value>
-  </data>
-  <data name="&gt;&gt;lblHeight.Name" xml:space="preserve">
-    <value>lblHeight</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>flpMoves</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>About</value>
-  </data>
-  <data name="&gt;&gt;cardPokemon1.Type" xml:space="preserve">
-    <value>Pokedex.WindowsForm.Forms.Controls.CardPokemon, Pokedex.WindowsForm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 245</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cardPokemon1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>803, 250</value>
-  </data>
-  <data name="lblWeight.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 62</value>
-  </data>
-  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="lblWeight.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 23</value>
-  </data>
-  <data name="&gt;&gt;flpMoves.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>399, 201</value>
-  </data>
-  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="cardPokemon1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-1, -2</value>
-  </data>
-  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>393, 201</value>
-  </data>
-  <data name="flpMoves.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;cardPokemon1.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="lblWeight.Text" xml:space="preserve">
+    <value>Weight: </value>
   </data>
   <data name="lblWeight.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
+  <data name="&gt;&gt;lblWeight.Name" xml:space="preserve">
+    <value>lblWeight</value>
+  </data>
+  <data name="&gt;&gt;lblWeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWeight.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblWeight.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 29</value>
+  </data>
+  <data name="lblHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 23</value>
+  </data>
+  <data name="lblHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
   <data name="lblHeight.Text" xml:space="preserve">
     <value>Height: </value>
   </data>
-  <data name="lblWeight.Text" xml:space="preserve">
-    <value>Weight: </value>
+  <data name="lblHeight.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
-  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>409, 245</value>
+  <data name="&gt;&gt;lblHeight.Name" xml:space="preserve">
+    <value>lblHeight</value>
   </data>
   <data name="&gt;&gt;lblHeight.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="flpMoves.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 175</value>
+  <data name="&gt;&gt;lblHeight.Parent" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
-  <data name="&gt;&gt;flpMoves.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;lblHeight.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;flpMoves.Name" xml:space="preserve">
-    <value>flpMoves</value>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 252</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>399, 194</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="flpMoves.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 23</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>flpMoves</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="flpMoves.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 19</value>
+  </data>
+  <data name="flpMoves.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 169</value>
+  </data>
+  <data name="flpMoves.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flpMoves.Name" xml:space="preserve">
+    <value>flpMoves</value>
+  </data>
+  <data name="&gt;&gt;flpMoves.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flpMoves.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;flpMoves.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 252</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>393, 194</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Moves</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>pt-BR</value>
-  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>804, 450</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Pokemon Info</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormPokemonInfo</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Pokedex.WindowsForm.Forms.FormBase, Pokedex.WindowsForm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
 </root>

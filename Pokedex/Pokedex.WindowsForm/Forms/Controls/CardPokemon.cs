@@ -1,19 +1,12 @@
 ﻿using PokeApiNet;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Pokedex.WindowsForm.Forms.Controls
 {
     public partial class CardPokemon : UserControl
     {
-        private Pokemon pokemon= new Pokemon();
+        private Pokemon pokemon = new Pokemon();
 
         /// <summary>
         /// 
@@ -21,7 +14,7 @@ namespace Pokedex.WindowsForm.Forms.Controls
         /// <param name="pokemon"></param>
         /// <param name="panelInfo"></param>
         public CardPokemon(Pokemon pokemon, bool panelInfo = false)
-        {
+        {            
             InitializeComponent();
             ChangeInfo(pokemon);
             if (panelInfo)
@@ -31,6 +24,7 @@ namespace Pokedex.WindowsForm.Forms.Controls
                     ((Control)c).Click += new EventHandler(click_OpenPainelInfo);
                 }
             }
+            Utils.UpdateTheme(this);
         }
 
 

@@ -1,10 +1,6 @@
 ﻿using Pokedex.WindowsForm.Forms;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace Pokedex.WindowsForm
 {
     internal static class Program
@@ -19,5 +15,6 @@ namespace Pokedex.WindowsForm
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FormPokedex());
         }
+
     }
 }

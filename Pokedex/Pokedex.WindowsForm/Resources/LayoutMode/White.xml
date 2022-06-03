@@ -2,14 +2,14 @@
 <styles Name="White">
 	<Colors>
 		<Background Name="Background">
-			<R>190</R>
-			<G>190</G>
-			<B>190</B>
+			<R>235</R>
+			<G>235</G>
+			<B>235</B>
 		</Background>
 		<BackgroundSecondary Name="BackgroundSecondary">
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
+			<R>205</R>
+			<G>205</G>
+			<B>205</B>
 		</BackgroundSecondary>
 
 		<FontPrimary Name="FontPrimary">
@@ -25,8 +25,9 @@
 
 		<ButtonDefault Name="ButtonDefault">
 			<R>46</R>
-			<G>139</G>
+			<G>100</G>
 			<B>87</B>
 		</ButtonDefault>
+	
 	</Colors>
 </styles>

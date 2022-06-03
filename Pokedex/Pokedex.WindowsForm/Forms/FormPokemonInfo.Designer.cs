@@ -43,15 +43,15 @@
             // 
             // cardPokemon1
             // 
+            this.cardPokemon1.BackColor = System.Drawing.Color.Black;
             resources.ApplyResources(this.cardPokemon1, "cardPokemon1");
-            this.cardPokemon1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.cardPokemon1.Name = "cardPokemon1";
             // 
             // groupBox1
             // 
-            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.lblWeight);
             this.groupBox1.Controls.Add(this.lblHeight);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
@@ -78,8 +78,8 @@
             // 
             // groupBox2
             // 
-            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Controls.Add(this.flpMoves);
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
             // 
@@ -91,6 +91,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.cardPokemon1);
             this.Name = "FormPokemonInfo";
+            this.Load += new System.EventHandler(this.FormPokemonInfo_Load);
             this.groupBox1.ResumeLayout(false);
             this.flpMoves.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);

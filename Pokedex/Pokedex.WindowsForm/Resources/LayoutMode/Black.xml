@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<styles Name="White">	
+<styles Name="Black">	
 	<Colors>
 		<Background Name="Background">
 			<R>75</R>
@@ -28,6 +28,7 @@
 			<G>139</G>
 			<B>87</B>
 		</ButtonDefault>
+
 	</Colors>		
 </styles>
 

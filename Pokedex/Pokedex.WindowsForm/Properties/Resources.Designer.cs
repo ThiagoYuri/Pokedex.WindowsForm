@@ -61,6 +61,16 @@ namespace Pokedex.WindowsForm.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap config {
+            get {
+                object obj = ResourceManager.GetObject("config", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
         ///&lt;styles Name=&quot;Config&quot;&gt;
         ///	&lt;LayoutMode&gt;White&lt;/LayoutMode&gt;
@@ -98,25 +108,30 @@ namespace Pokedex.WindowsForm.Properties {
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
         ///&lt;styles Name=&quot;White&quot;&gt;
-        ///	
         ///	&lt;Colors&gt;
         ///		&lt;Background Name=&quot;Background&quot;&gt;
-        ///			&lt;R&gt;232&lt;/R&gt;
-        ///			&lt;G&gt;0&lt;/G&gt;
-        ///			&lt;B&gt;40&lt;/B&gt;
+        ///			&lt;R&gt;190&lt;/R&gt;
+        ///			&lt;G&gt;190&lt;/G&gt;
+        ///			&lt;B&gt;190&lt;/B&gt;
         ///		&lt;/Background&gt;
+        ///		&lt;BackgroundSecondary Name=&quot;BackgroundSecondary&quot;&gt;
+        ///			&lt;R&gt;255&lt;/R&gt;
+        ///			&lt;G&gt;255&lt;/G&gt;
+        ///			&lt;B&gt;255&lt;/B&gt;
+        ///		&lt;/BackgroundSecondary&gt;
         ///
-        ///	&lt;/Colors&gt;
-        ///	
-        ///	
-        ///	&lt;Fonts&gt;
-        ///		
-        ///	&lt;/Fonts&gt;	
-        ///	
-        ///&lt;/styles&gt;
+        ///		&lt;FontPrimary Name=&quot;FontPrimary&quot;&gt;
+        ///			&lt;R&gt;0&lt;/R&gt;
+        ///			&lt;G&gt;0&lt;/G&gt;
+        ///			&lt;B&gt;0&lt;/B&gt;
+        ///		&lt;/FontPrimary&gt;
+        ///		&lt;FontSecondary Name=&quot;FontSecondary&quot;&gt;
+        ///			&lt;R&gt;50&lt;/R&gt;
+        ///			&lt;G&gt;50&lt;/G&gt;
+        ///			&lt;B&gt;50&lt;/B&gt;
+        ///		&lt;/FontSecondary&gt;
         ///
-        ///
-        ///.
+        ///		&lt;ButtonDefault Na [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string White {
             get {
