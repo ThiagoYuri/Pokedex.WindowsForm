@@ -36,9 +36,7 @@ namespace Pokedex.WindowsForm.Forms
             }
             if (comboBox2.SelectedItem != null)
             {
-                XElement xml = XElement.Load($@"{Environment.SpecialFolder.Resources}\ConfigPokedex.xml");
-                xml.Element("LayoutMode").Value = comboBox2.SelectedItem.ToString();
-                xml.Save($@"{Environment.SpecialFolder.Resources}\ConfigPokedex.xml");
+                Properties.Settings.Default.ModeLayout = comboBox2.SelectedItem.ToString();
                 updateBackground();
                 Utils.UpdateTheme(this);            
             }

@@ -32,7 +32,7 @@ namespace Pokedex.WindowsForm
         {
             try
             {
-                string directory = $@"{Environment.SpecialFolder.Resources}\LayoutMode\{XElement.Parse(File.ReadAllText($@"{Environment.SpecialFolder.Resources}\ConfigPokedex.xml")).Element("LayoutMode").Value}.xml";
+                string directory = $@"{Environment.SpecialFolder.Resources}\LayoutMode\{Properties.Settings.Default.ModeLayout}.xml";
                 if (File.Exists(directory))
                 {
                     XElement xml = XElement.Load(directory)
