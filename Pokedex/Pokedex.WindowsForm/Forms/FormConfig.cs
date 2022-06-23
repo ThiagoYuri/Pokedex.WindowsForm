@@ -30,18 +30,40 @@ namespace Pokedex.WindowsForm.Forms
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (comboBox1.SelectedItem != null)
+            try
             {
-                Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(comboBox1.SelectedItem.ToString());
+                if (comboBox1.SelectedItem != null)
+                {
+                    if(comboBox1.SelectedItem.ToString().ToLower() != Thread.CurrentThread.CurrentUICulture.IetfLanguageTag.ToLower())
+                    {
+                        Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(comboBox1.SelectedItem.ToString());
+                    }
+                    else
+                    {
+                        throw new Exception("this is the current language");
+                    }
+                }
+                if (comboBox2.SelectedItem != null)
+                {
+                    if (Properties.Settings.Default.ModeLayout != comboBox2.SelectedItem.ToString())
+                    {
+                        Properties.Settings.Default.ModeLayout = comboBox2.SelectedItem.ToString();
+                        updateBackground();
+                        Utils.UpdateTheme(this);
+                    }
+                    else
+                    {
+                        throw new Exception("this is the current theme");
+                    }
+                }
+                DialogResult = DialogResult.OK;
+                this.Close();
             }
-            if (comboBox2.SelectedItem != null)
+            catch(Exception ex)
             {
-                Properties.Settings.Default.ModeLayout = comboBox2.SelectedItem.ToString();
-                updateBackground();
-                Utils.UpdateTheme(this);            
+                Utils.MessageErro(ex.Message);
             }
-            DialogResult = DialogResult.OK;
-            this.Close();
+           
         }
     }
 }
