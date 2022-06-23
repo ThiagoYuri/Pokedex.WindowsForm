@@ -21,9 +21,9 @@ namespace Pokedex.WindowsForm.Forms
                     comboBox2.Items.Add(new FileInfo(file).Name.Replace(".xml",""));
                 }
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                Utils.MessageErro(ex.Message);
+                Utils.MessageErro(e.Message);
             }
            
         }

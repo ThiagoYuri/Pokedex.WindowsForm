@@ -3,12 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokeApiNet", "PokeApiNet\PokeApiNet\PokeApiNet.csproj", "{7B0E8B53-DF1D-45AA-AE7D-8E237AB08261}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokeApiNet.Tests", "PokeApiNet\PokeApiNet.Tests\PokeApiNet.Tests.csproj", "{B1C30F98-2EE3-4FDD-A005-5AAB6F8F75A7}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PokeApi", "PokeApi", "{9091A1F7-DA9A-46D6-821E-9F487C0EBD09}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokedex.WindowsForm", "Pokedex.WindowsForm\Pokedex.WindowsForm.csproj", "{7026B114-57D1-4545-87CB-D3D271A38B54}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pokedex.Web", "Pokedex.Web\Pokedex.Web.csproj", "{D207D342-1682-4874-AE61-496F92566C2C}"
@@ -19,14 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7B0E8B53-DF1D-45AA-AE7D-8E237AB08261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7B0E8B53-DF1D-45AA-AE7D-8E237AB08261}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7B0E8B53-DF1D-45AA-AE7D-8E237AB08261}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7B0E8B53-DF1D-45AA-AE7D-8E237AB08261}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B1C30F98-2EE3-4FDD-A005-5AAB6F8F75A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B1C30F98-2EE3-4FDD-A005-5AAB6F8F75A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B1C30F98-2EE3-4FDD-A005-5AAB6F8F75A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B1C30F98-2EE3-4FDD-A005-5AAB6F8F75A7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7026B114-57D1-4545-87CB-D3D271A38B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7026B114-57D1-4545-87CB-D3D271A38B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7026B114-57D1-4545-87CB-D3D271A38B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -38,10 +24,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{7B0E8B53-DF1D-45AA-AE7D-8E237AB08261} = {9091A1F7-DA9A-46D6-821E-9F487C0EBD09}
-		{B1C30F98-2EE3-4FDD-A005-5AAB6F8F75A7} = {9091A1F7-DA9A-46D6-821E-9F487C0EBD09}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EFC6327A-D0F6-4BEB-A15F-2AD16B3F2C2D}

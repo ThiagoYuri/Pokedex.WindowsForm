@@ -47,7 +47,7 @@ namespace Pokedex.WindowsForm
             }
             catch (Exception e)
             {
-                throw e;
+                MessageErro(e.Message);
             }
             return default(Color);
         }
@@ -63,36 +63,37 @@ namespace Pokedex.WindowsForm
                     {
                         UpdateTheme(ctl);
                     }
-                    try
-                    {
-                        saveUIControl(ctl);
-                    }
-                    catch (Exception e)
-                    {
-
-                    }
-
-
+                    saveUIControl(ctl);
                 }
             }
-            catch (Exception e) { }
+            catch (Exception e)
+            {
+                MessageErro(e.Message);
+            }
         }
         #endregion
 
         private static void saveUIControl(Control ctl)
         {
-            if (ctl is Form)
-                ctl.BackColor = getColor("Background");
-            else if (ctl is CardPokemon)
-                ctl.BackColor = getColor("BackgroundSecondary");
-            else if (ctl is Button)
-                ctl.BackColor = getColor("ButtonDefault");
-            else if (ctl is GroupBox)
-                ctl.ForeColor = getColor("FontPrimary");
-            else if (ctl is Label)
-                ctl.ForeColor = getColor("FontPrimary");
-            else if (ctl is CardPokemon)
-                ctl.BackColor = getColor("BackgroundSecondary");
+            try
+            {
+                if (ctl is Form)
+                    ctl.BackColor = getColor("Background");
+                else if (ctl is CardPokemon)
+                    ctl.BackColor = getColor("BackgroundSecondary");
+                else if (ctl is Button)
+                    ctl.BackColor = getColor("ButtonDefault");
+                else if (ctl is GroupBox)
+                    ctl.ForeColor = getColor("FontPrimary");
+                else if (ctl is Label)
+                    ctl.ForeColor = getColor("FontPrimary");
+                else if (ctl is CardPokemon)
+                    ctl.BackColor = getColor("BackgroundSecondary");
+            }
+            catch (Exception e)
+            {
+                MessageErro(e.Message);
+            }
         }
 
     }
