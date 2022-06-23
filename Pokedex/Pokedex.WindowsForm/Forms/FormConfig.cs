@@ -12,7 +12,8 @@ namespace Pokedex.WindowsForm.Forms
         {
             InitializeComponent();
             try
-            {                
+            {           
+                //loading of themes
                 foreach (string file in Directory.GetFiles(
                     $@"{Environment.SpecialFolder.Resources}\LayoutMode",
                     "*.xml")
@@ -32,6 +33,7 @@ namespace Pokedex.WindowsForm.Forms
         {
             try
             {
+                //Save configurations
                 if (comboBox1.SelectedItem != null)
                 {
                     if(comboBox1.SelectedItem.ToString().ToLower() != Thread.CurrentThread.CurrentUICulture.IetfLanguageTag.ToLower())

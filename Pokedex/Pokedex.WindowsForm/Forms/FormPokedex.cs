@@ -41,6 +41,9 @@ namespace Pokedex.WindowsForm.Forms
             }
         }
 
+        /// <summary>
+        /// Create seach of pokemon
+        /// </summary>
         private void createSeach()
         {
             flpListPokemon.Controls.Clear();
@@ -117,7 +120,9 @@ namespace Pokedex.WindowsForm.Forms
             pokeClient.ClearCache();
         }
 
-      
+        /// <summary>
+        /// Creating gif of loading
+        /// </summary>
         private void createLoading()
         {
             PictureBox pictureBox = new PictureBox();
